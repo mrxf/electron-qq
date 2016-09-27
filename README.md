@@ -1,38 +1,23 @@
-# electron-quick-start
+# electron-QQ
 
-**Clone and run for a quick way to see an Electron in action.**
+一个仿制QQ桌面版登录的Demo，用来练习electron
+![截图](screenShot.png)
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
-
-**Use this app along with the [Electron API Demos](http://electron.atom.io/#get-started) app for API code examples to help you get started.**
-
-A basic Electron application needs just these files:
-
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
-
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
-
+![动态图](http://o93mwnwp7.bkt.clouddn.com/github/electron-qq.gif)
 ## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
 ```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
+# 克隆项目
+git clone https://github.com/mrxf/electron-qq
+# 进入项目文件夹
 cd electron-quick-start
-# Install dependencies and run the app
+# 安装依赖&启动项目
 npm install && npm start
 ```
 
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
+## 打包项目
 
-## Other Example Apps
-
-For more example apps, see the
-[list of boilerplates](http://electron.atom.io/community/#boilerplates)
-created by the awesome electron community.
-
-#### License [CC0 (Public Domain)](LICENSE.md)
+```bash
+# 配置package.json文件
+npm build
+```
