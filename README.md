@@ -3,24 +3,24 @@
 ![MIT](https://img.shields.io/npm/l/express.svg?style=flat-square)
 [![Electron](https://img.shields.io/badge/electron-1.4.1-red.svg?style=flat-square)](https://github.com/electron/electron)
 
-Ò»¸ö·ÂÖÆQQ×ÀÃæ°æµÇÂ¼µÄDemo£¬ÓÃÀ´Á·Ï°electron
+ä¸€ä¸ªä»¿åˆ¶QQæ¡Œé¢ç‰ˆç™»å½•çš„Demoï¼Œç”¨æ¥ç»ƒä¹ electron
 
-![½ØÍ¼](screenShot.png)
+![æˆªå›¾](screenShot.png)
 
 ## To Use
 
 ```bash
-# ¿ËÂ¡ÏîÄ¿
+# å…‹éš†é¡¹ç›®
 git clone https://github.com/mrxf/electron-qq
-# ½øÈëÏîÄ¿ÎÄ¼ş¼Ğ
-cd electron-quick-start
-# °²×°ÒÀÀµ&Æô¶¯ÏîÄ¿
+# è¿›å…¥é¡¹ç›®æ–‡ä»¶å¤¹
+cd electron-qq
+# å®‰è£…ä¾èµ–&å¯åŠ¨é¡¹ç›®
 npm install && npm start
 ```
 
-## ´ò°üÏîÄ¿
+## æ‰“åŒ…é¡¹ç›®
 
 ```bash
-# ÅäÖÃpackage.jsonÎÄ¼ş
+# é…ç½®package.jsonæ–‡ä»¶
 npm build
 ```
